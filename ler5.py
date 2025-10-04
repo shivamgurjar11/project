@@ -8,7 +8,7 @@ n = int(input("enter a number: "))
 
 table = []
 
-for i in range(1, 11):
+for i in range(2, 11):
     table.append(f"{n}*{i}={n*i}")
 
 for row in reversed(table):
